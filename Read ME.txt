@@ -1,0 +1,19 @@
+Database 
+
+Restaurant login Credentials
+
+email              			password
+-------------------------------------------------
+john@email.com				123456
+hoteleden@email.com			123456
+ddhaba@email.com			123456
+
+===================================================
+User login credentials
+
+email				password
+---------------------------------------------------
+sam@email.com			123456
+anish@email.com			123456
+rahul@email.com			123456
+sweta@email.com			123456
