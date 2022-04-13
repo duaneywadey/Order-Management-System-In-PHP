@@ -70,7 +70,7 @@ if(isset($register))
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla</title>
+    <title>Pero Pero</title>
     
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -83,9 +83,9 @@ if(isset($register))
 		</style>
   </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
   <div class="container">
-    <a class="navbar-brand" href="../index.php">FoodVilla</a>
+    <a class="navbar-brand" href="index.php">Pero Pero</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -105,7 +105,7 @@ if(isset($register))
     <main role="main">
         <div class="jumbotron" style="background: url(assets/images/bg-image1.jpg) no-repeat center / cover;">
           <div class="col-sm-8 mx-auto">
-            <h1>Discover The Flavors Of FoodVilla</h1>
+            <h1>Discover The Flavors Of Pero Pero</h1>
             <p>Most Interesting Food To Your Doorstep.</p>
             <p>Order food from favourite restaurants near you.</p>
           </div>

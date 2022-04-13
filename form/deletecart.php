@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla</title>
+    <title>Pero Pero</title>
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 

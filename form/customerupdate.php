@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla</title>
+    <title>Pero Pero</title>
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,16 +33,16 @@ p {
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">FoodVilla</a>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">Pero Pero</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 </nav>
 <div class="container" style="margin:0px auto;text-align:center;">
-     <p style="color:green;">Updating Your Details<br>Please Wait</p>
+     <p style="color:#ED2553;">Updating Your Details<br>Please Wait</p>
 	 <img src="../assets/images/143.gif"/></div>
 	   <h1><time>00</time></h1>
 <script>

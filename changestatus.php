@@ -31,7 +31,7 @@ if(isset($logout))
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla</title>
+    <title>Pero Pero</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,9 +46,9 @@ if(isset($logout))
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
       <div class="container">
-        <a class="navbar-brand" href="index.php">FoodVilla</a>
+        <a class="navbar-brand" href="index.php">Pero Pero</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

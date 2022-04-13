@@ -1,9 +1,10 @@
 <?php
-$hostname="localhost";
-$user_name="root";
+$servername="localhost";
+$user="root";
 $password="";
-$db="dbfood";
-$con=mysqli_connect($hostname,$user_name,$password,$db);
+$db="testdb";
+$portnum = '3307';
+$con= mysqli_connect($servername, $user, $password, $db, $portnum);
 
  
 

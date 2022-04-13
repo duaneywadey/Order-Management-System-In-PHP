@@ -156,28 +156,13 @@ if(isset($del))
         </div>
       </div>
 </nav>
-
 <br><br>
 <div class="container" style="  padding:60px; border:1px solid #ED2553;">
-       <!--tab heading-->
-	   <ul class="nav nav-tabs nabbar_inverse" id="myTab" style="background:#FFC0CB;border-radius:10px 10px 10px 10px;" role="tablist">
-          <li class="nav-item">
-             <a class="nav-link active" style="color:#16537e;" id="viewitem-tab" data-toggle="tab" href="#viewitem" role="tab" aria-controls="viewitem" aria-selected="true">View Cart</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" style="color:#16537e;" id="manageaccount-tab" data-toggle="tab" href="#manageaccount" role="tab" aria-controls="manageaccount" aria-selected="false">Account Settings</a>
-          </li>
-		  <li class="nav-item">
-              <a class="nav-link" style="color:#16537e;" id="orders-tab" data-toggle="tab" href="#orders" role="tab" aria-controls="orders" aria-selected="false">Orders</a>
-          </li>
-		  
-       </ul>
-	   <br>
-
 <div class="tab-content" id="myTabContent">
 	<div class="tab-pane fade show active" id="viewitem" role="tabpanel" aria-labelledby="home-tab">
     <div class="table-responsive">    
 		<table class="table">
+			<h1>Receipt</h1>
             <tbody>
 				<th></th>
 				<th>Item Name</th>
@@ -205,16 +190,8 @@ if(isset($del))
                          <td><?php echo "PHP ".$res['cost'];?></td>
                          <td><?php echo $res['cuisines'];?></td>
                          <td><?php echo $nm; ?></td>
-		                <form method="post" enctype="multipart/form-data">
-                           <td><button type="submit" name="del"  value="<?php echo $res['fld_cart_id']?>" class="btn btn-danger">Delete</button></td>
-
-                        </form>
                         <td><?php $total=$total+$res['cost']; $gtotal[]=$total;  ?></td>
                     </tr>
-
-
-					  
-
 					  
                    <?php
 	                    }
@@ -232,12 +209,8 @@ if(isset($del))
 					  <td></td>
 					  
 					  <td style="padding:30px; text-align:center;">
-					 <!--  <a href="order.php?cust_id=<?php echo $cust_id; ?>"><button type="button" style=" color:white; font-weight:bold; text-transform:uppercase;" class="btn btn-warning">Proceed to checkout</button></a> -->
+					  <a href="order.php?cust_id=<?php echo $cust_id; ?>"><button type="button" style=" color:white; font-weight:bold; text-transform:uppercase;" class="btn btn-warning">Finish</button></a>
 
-					  <a href="receipt.php"><button type="button" style=" color:white; font-weight:bold; text-transform:uppercase;" class="btn btn-warning">Proceed to checkout</button></a>
-
-					 
-					  
 					  </td>
 					  <td></td>
 					  </tr>
@@ -334,6 +307,7 @@ if(isset($del))
 					</tbody>
 		</table>
 		</div>
+		
 	</div>
 </div>
 </div>  

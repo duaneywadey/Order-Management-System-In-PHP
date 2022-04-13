@@ -46,7 +46,7 @@ if(isset($register))
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla | Restaurant Sign Up</title>
+    <title>Pero Pero | Restaurant Sign Up</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -59,9 +59,9 @@ if(isset($register))
 		</style>
   </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
   <div class="container">
-    <a class="navbar-brand" href="index.php">FoodVilla</a>
+    <a class="navbar-brand" href="index.php">Pero Pero</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,7 +82,7 @@ if(isset($register))
     <main role="main">
         <div class="jumbotron" style="background: url(assets/images/bg-image1.jpg) no-repeat center / cover;">
           <div class="col-sm-8 mx-auto">
-            <h1>Add your restaurant on FoodVilla</h1>
+            <h1>Add your restaurant on Pero Pero</h1>
             <p>Get more customers!</p>
           </div>
         </div>
@@ -129,7 +129,6 @@ if(isset($register))
 	<br>
     <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>Made by Madhab Paul</p>
       </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

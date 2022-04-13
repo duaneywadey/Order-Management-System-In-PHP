@@ -63,20 +63,20 @@ $re=mysqli_num_rows($query);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FoodVilla | Home</title>
+    <title>Pero Pero Cusine | Home</title>
 
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d8aeeb35ee.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/4378917382.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
   <div class="container">
-    <a class="navbar-brand" href="index.php">FoodVilla</a>
+    <a class="navbar-brand" href="index.php">Pero Pero Cusine</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -113,7 +113,7 @@ $re=mysqli_num_rows($query);
 		  	        ?>
             </ul>
             <form class="form-inline my-2 my-md-0">
-              <a href="sellerSignUp.php"><button type="button" class="btn btn-lg btn-block btn-warning">FoodVilla Business <i class="fas fa-arrow-circle-right"></i></button></a>
+              <a href="sellerSignUp.php"><button type="button" class="btn btn-lg btn-block btn-warning">Register your resto now!<i class="fas fa-arrow-circle-right"></i></button></a>
             </form>
         </div>
   </div>
@@ -121,55 +121,10 @@ $re=mysqli_num_rows($query);
   
 <div class="container">
   <main role="main">
-    <div class="jumbotron" style="background: url(assets/images/bg-image1.jpg) no-repeat center / cover;">
-      <div class="col-sm-8 mx-auto">
-        <h1>Discover The Flavors Of FoodVilla</h1>
-        <p>Most Interesting Food To Your Doorstep.</p>
-        <p>Order food from favourite restaurants near you.</p>
-      </div>
-    </div>
+    <div class="text-center">
+      <img src="assets/images/Pero Pero Illustrated Yummy Food Truck Logo (1).png" style="display: block;margin: auto;" />    
+    </div>  
   </main>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/burger.png" alt="Burger" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/chinese.png" alt="Noodles" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/pizza.png" alt="Pizza" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/bevrages.png" alt="Beverages" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/italian.png" alt="Italian" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/pastry.png" alt="Pastry" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/tacos.png" alt="Tacos" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/tea.png" alt="Tea" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/sandwich.png" alt="Sandwich" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/hotdog.png" alt="Hot dog" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/soup.png" alt="Soup" >
-    </div>
-    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-      <img class="rounded-circle" src="assets/images/juice.png" alt="Juice" >
-    </div>
-  </div>
 </div>
 
 <div class="album py-5 bg-light">
@@ -201,11 +156,11 @@ $re=mysqli_num_rows($query);
               <p class="card-text"><img class="rounded-circle" src="<?php echo $hotel_logo; ?>" alt="<?php echo $res['fld_name']; ?>" width="30px" height="auto"> <?php echo $res['fld_name']; ?> <br> <br>
               <i class="fas fa-utensils"></i><b> <?php echo $res['foodname'];?></b> <br> 
               Cuisine: <?php echo $res['cuisines']; ?> <br>
-              <i class="fas fa-rupee-sign"></i>. <b><?php echo $res['cost']; ?></b> per person</p>
+              <i class="fa-solid fa-peso-sign"></i> <b><?php echo $res['cost']; ?></b> per person</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <form method="post">
-                  <button type="submit" class="btn btn-sm btn-success" name="addtocart" value="<?php echo $res['food_id'];?>">Order Now!</button>
+                  <button type="submit" class="btn btn-sm btn-primary" name="addtocart" value="<?php echo $res['food_id'];?>">Order Now!</button>
                 </form>
               </div>
                 <small class="text-muted"><?php
@@ -235,7 +190,6 @@ $re=mysqli_num_rows($query);
 
 <footer class="container">
   <p class="float-right"><a href="#">Back to top</a></p>
-  <p>Made by Madhab Paul</p>
 </footer>
       
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
